@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Style Css-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <!--Logo Title Bar-->
+    <link rel="icon" href="assets/img/logo_rumah.png" type="image/x-icon">
+
+    <!--MDB CDN-->
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"rel="stylesheet"/>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"rel="stylesheet"/>
+
+     <!--responsive CSS-->
+     <link rel="stylesheet" href="css/responv.css">
+    <!--Chart js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+
+    <title>Asap cair</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg  navbar-dark  nav-color position-fixed w-100 ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" alt=""> Asap Cair
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="index.html">BERANDA</a>
+              </li>
+              <li class="nav-item mx-3 ">
+                <a class="nav-link" href="index.html#produk">PRODUK</a>
+              </li>
+              <li class="nav-item mx-3 ">
+                <a class="nav-link" href="index.html#map">TENTANG</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--End Navbar-->
+
+    <!--Slider Section-->
+      <section id="Slider">
+        <div id="carouselExampleCaptions" class="carousel slide position-relative" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/image/slider.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/image/slider.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/image/slider.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn  button-pesan position-absolute top-50 start-50 translate-middle"><a href="https://wa.me/+6281324770103" style="color: #4E7258;" target="_blank">Pesan sekarang</a> </button>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    <!--End Hero section-->
+
+    <!--Section about-->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center ">
+              <h5>Asap Cair</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    <!--End section about-->
+
+    <!--Our services-->
+      <section id="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6  offset-lg-3 offset-md-3">
+              <h2 class="module-title font-alt">Produk Kami</h2>
+              <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-strategy"></span></div>
+                <h3 class="alt-features-title font-alt">Branding</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-tools-2"></span></div>
+                <h3 class="alt-features-title font-alt">Development</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-target"></span></div>
+                <h3 class="alt-features-title font-alt">Marketing</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-tools"></span></div>
+                <h3 class="alt-features-title font-alt">Design</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+              <div class="alt-services-image align-center position-relative">
+                <img src="assets/image/produk1.png" alt="Feature Image">
+                <button type="button" class="btn  button-pesan position-absolute bottom-0 start-50 translate-middle"><a href="https://wa.me/+6281324770103" style="color: #4E7258;" target="_blank">Lihat selengkapnya</a>
+                </button>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3">
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-camera"></span></div>
+                <h3 class="alt-features-title font-alt">Website</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-mobile"></span></div>
+                <h3 class="alt-features-title font-alt">Mobile</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-linegraph"></span></div>
+                <h3 class="alt-features-title font-alt">Healty</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+              <div class="alt-features-item">
+                <div class="alt-features-icon"><span class="icon-basket"></span></div>
+                <h3 class="alt-features-title font-alt">Shop</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!--End Our servicez-->
+
+
+
+
+    <!--section Testimonial-->
+    <section id="testimonial">
+      <div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+              style="width: 150px;" />
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <h5 class="mb-3">Maria Kate</h5>
+                <p>Photographer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                  nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                  fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                  doloremque.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+              style="width: 150px;" />
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <h5 class="mb-3">John Doe</h5>
+                <p>Web Developer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                  nesciunt sint eligendi reprehenderit reiciendis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar" style="width: 150px;" />
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <h5 class="mb-3">Anna Deynah</h5>
+                <p>UX Designer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                  nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                  fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                  doloremque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls"
+          data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls"
+          data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+        <!--End testimonial Section-->
+
+
+
+    <!--Produk section-->
+    <section id="produk">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2>Daftar Produk</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card p-2 " style="width: 22re;">
+              <img src="assets/image/produk1.png" >
+              <div class="card-body">
+                <h4>
+                  Asap Cair
+                </h4>
+                <p class="mb-3 lh-sm pt-3 mb-5">
+                  Rp.25.000
+                  <span class="text-success d-block">Untuk Hama</span>
+                </p>
+                <button class="btn button-detail position-absolute bottom-0 start-50 translate-middle"><a href="detail-produk.html">Lihat detail</a> </button>
+              </div>
+          </div>
+        </div>
+          <div class="col-lg-6 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card p-2 " style="width: 22re;">
+              <img src="assets/image/produk1.png" alt="">
+              <div class="card-body position-relative">
+                <h4>
+                  Asap Cair
+                </h4>
+                <p class="mb-3 lh-sm pt-3 mb-5">
+                  Rp.25.000
+                  <span class="text-success d-block">Untuk Manusia</span>
+                </p>
+                <button class="btn button-detail position-absolute bottom-0 start-50 translate-middle">Lihat detail</button>
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!--End Produk section-->
+
+
+    <!--Chart penjualan-->
+    <section id="chart">
+      <div class="container">
+        <h2 class="text-center"> Statistik Hasil penjualan Asap Cair</h2>
+        <canvas id="myChart"></canvas>
+      </div>
+    </section>
+    <!--end Chart-->
+
+
+
+    <!--Map -->
+    <section id="map">
+      <div class="container">
+        <h3 class="text-center pb-3">
+          Lokasi Kami
+        </h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8880908031083!2d108.27926301387899!3d-6.408414695363244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6eb87d1fcaf97d%3A0x4fc15b3c8407ada4!2sIndramayu%20State%20Polytechnic!5e0!3m2!1sen!2sid!4v1680407083671!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <!--End Map-->
+
+    <a  class="whats-app" href="https://wa.me/+6281324770103" target="_blank">
+      <i class=" my-float">
+        <img src="assets/image/whatsapp-32.ico" alt="">
+      </i>
+  </a>
+
+    <footer class="section-footer border-top">
+      <div class="container pt-5 pb-4">
+          <div class="row justify-content-center">
+              <div class="col-12">
+                  <div class="row">
+                      <div class="col-12 col-lg-3 offset-lg-2">
+                          <ul class="list-unstyled">
+                              <li class="pb-3"><a href="index.html">Beranda</a> </li>
+                              <li class="pb-3"><a href="index.html#produk">Produk</a> </li>
+                              <li class="pb-3"><a href="index.html#map">Tentang</a> </li>
+                          </ul>
+                      </div>
+                      <div class="col-12 col-lg-3">
+                          <h5>SOCIAL MEDIA</h5>
+                          <ul class="list-unstyled">
+                              <li class="#">Facebook</li>
+                              <li class="#">Intagram</li>
+                          </ul>
+                      </div>
+                      <div class="col-12 col-lg-3">
+                          <h5>GET CONNECTED</h5>
+                          <ul class="list-unstyled">
+                              <li class="#">INDRAMAYU</li>
+                              <li class="#">INDONESIA</li>
+                              <li class="#">0821-2222-8888</li>
+                              <li class="#">AsapCair@gmail.com</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+          <div class="row border-top justify-content-center align-items-center ">
+              <div class="col-auto text-gray-500 font-weight-light py-auto">
+                  2023 Copyright AsapCair. All rights reserved Made in Indramayu
+          </div>
+      </div>
+  </footer>
+
+    <!--Chart-->
+    <script>
+      const ctx = document.getElementById('myChart');
+
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni'],
+          datasets: [{
+            label: 'Asap Cair untuk luka',
+            data: [10, 16, 10, 23, 6, 10],
+            borderWidth: 1
+          },
+        {
+          label: 'Asap cair untuk hama',
+            data: [30, 26, 28, 46, 16, 15],
+            borderWidth: 1
+        }]
+        },
+        options: {
+
+
+        }
+      });
+    </script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

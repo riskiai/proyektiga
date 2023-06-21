@@ -1,0 +1,315 @@
+:root{
+    --pr-color : #4E7258;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3FFF4;
+}
+
+/* navbar styles */
+
+.navbar{
+    z-index: 3;
+
+}
+
+.nav-color {
+    background-color: #3A7E65;
+    transition: all ease-in-out .0.3s;
+}
+
+.bg-transparent{
+    transition: all ease-in-out .0.3s;
+}
+
+*{
+    z-index: 0;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Slider section */
+ #Slider .button-pesan{
+    background-color: transparent;
+    color: var(--pr-color);
+    border: solid 1px ;
+ }
+/*
+.carousel-control-next, .carousel-control-prev{
+    z-index: 3;
+} */
+
+
+
+/* section about  */
+
+#about{
+    background-color: #4E7258;
+    height: 330px;
+}
+
+#about h5{
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 70px;
+}
+
+#about p{
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/*navbar section */
+#services {
+    margin: 30px 0;
+}
+
+/*layanan section */
+
+#testimonial {
+    margin-top:  140px;
+    margin-bottom: 20px;
+}
+
+.komentar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+
+/*section produk   */
+
+#produk{
+    margin-top: 100px;
+}
+
+.card{
+    height: 600px;
+    border: none;
+    width: 70%;
+}
+
+.card-body h4{
+    color: #000;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: .8rem;
+}
+
+
+.card-body p{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card:hover{
+    background: linear-gradient(170deg,var(--pr-color), #007245, #007245, #000);
+    transition: all ease-in-out .3s;
+
+
+}
+
+.card .button-detail{
+    background-color: #3A7E65;
+    color: #F3FFF4;
+}
+
+.card .button-detail a{
+    background-color: #3A7E65;
+    color: #F3FFF4;
+    text-decoration: none;
+}
+
+.card:hover .button-detail a{
+    background-color: #fff;
+    color: #000;
+}
+
+.card:hover .button-detail {
+    background-color: #fff;
+    color: #000;
+}
+
+.card:hover .card-body h4{
+    color: #fff;
+    transition: all ease-in-out .2s;
+}
+
+.card:hover .card-body p{
+    color: #fff;
+    transition: all ease-in-out .2s;
+}
+
+/* section profile */
+#profile{
+    background-color: #4E7258;
+    height: 330px;
+}
+
+.sejarah-img{
+    height: 330px;
+}
+#profile h3{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#profile p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*section map*/
+
+#map {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+/* section footer*/
+.section-footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+footer{
+    width: 100%;
+    color: #fff;
+    height: auto;
+    background: #3A7E65;
+}
+
+.copyright{
+    bottom: 1%;
+    color: #fff;
+}
+
+footer a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.whats-app {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    right: 60px;
+}
+
+.my-float {
+    margin-top: 16px;
+    color: black;
+}
+
+
+
+/* detail produk */
+
+
+#detail-produk{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#detail-produk img {
+    height: 500px;
+    width: 500px;
+}
+
+/* koemntar section */
+
+.card-komentar {
+    background-color: #fff;
+    border: none
+}
+
+.form-color {
+    background-color: #fafafa
+}
+
+.form-control {
+    height: 48px;
+    border-radius: 25px
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #35b69f;
+    outline: 0;
+    box-shadow: none;
+    text-indent: 10px
+}
+
+
+
+.comment-text {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comment-name{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* chart */
+
+#chart{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
